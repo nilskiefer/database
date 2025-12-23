@@ -21,6 +21,8 @@ minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
+- name: Anime Dual Audio
+  score: 2000
 - name: Anime Tier 1
   score: 1400
 - name: Anime Tier 2
@@ -59,8 +61,6 @@ custom_formats:
   score: 200
 - name: Anime Baseline Groups
   score: 150
-- name: Anime Dual Audio
-  score: 101
 - name: Multi-Audio
   score: 101
 - name: Uncensored
@@ -115,17 +115,9 @@ custom_formats:
   score: -10000
 - name: AV1
   score: -10000
-- name: Dubs Only
-  score: -10000
 - name: VOSTFR
   score: -10000
-custom_formats_radarr:
-- name: Remux Tier 01 - Radarr
-  score: 1050
-- name: Remux Tier 02 - Radarr
-  score: 1000
-- name: Remux Tier 03 - Radarr
-  score: 950
+custom_formats_radarr: []
 custom_formats_sonarr:
 - name: Remux Tier 01 - Sonarr
   score: 1050
